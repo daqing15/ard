@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent"
+	android:fillViewport="true"
+    android:orientation="vertical"
+    android:gravity="center">
+
+	<EditText android:layout_height="wrap_content"
+		android:layout_width="wrap_content" android:id="@+id/editText1"
+		android:layout_alignParentTop="true" android:layout_alignParentLeft="true"
+		android:text="试一试--连连看"
+		android:layout_marginLeft="39dp">
+	</EditText>
+	
+	 <ImageView android:id="@+id/image_view"
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:layout_gravity="center_horizontal"
+             android:scaleType="center"/>
+
+</LinearLayout>

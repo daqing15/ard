@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent">
+	
+	
+	<LinearLayout 
+		android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+		
+		
+	
+	</LinearLayout>
+
+	<LinearLayout 
+		android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_alignParentBottom="true">
+		
+		<Button android:id="@+id/btn_createTwoCode"
+			android:layout_width="120dip"
+			android:layout_height="wrap_content"
+			android:text="生成二维码"
+			/>
+	
+		<Button android:id="@+id/btn_scanQrCode"
+			android:layout_width="120dip"
+			android:layout_height="wrap_content"
+			android:text="扫描"
+			/>
+			
+		<Button android:id="@+id/btn_goback"
+			android:layout_width="90dip"
+			android:layout_height="wrap_content"
+			android:text="返  回">
+		</Button>
+	</LinearLayout>
+</RelativeLayout>
